@@ -2,9 +2,22 @@
 <html>
 <head>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <title>Journal Assignment</title>
 </head>
 <body>
-  <p>Test this is an update</p>
+  <div class="container">
+    <form id="submit">
+      <div class="form-group">
+        <label for="title">Title</label>
+        <input type="text" id="title" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="body">Body</label>
+        <input type="text" id="body" class="form-control">
+      </div>
+      <button type="submit" class="btn btn-lg btn-primary">Count Vowels And Consenants</button>
+    </form>
+  </div>
 </body>
 </html>
