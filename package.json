@@ -1,9 +1,10 @@
 {
-  "name": "ping-pong",
+  "name": "journal",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "serve": "live-server dist/",
     "build": "webpack --mode development",
     "start": "npm run build; webpack-dev-server --open --mode development",
     "lint": "eslint src/*.js"
@@ -21,6 +22,7 @@
     "uglifyjs-webpack-plugin": "^1.2.2",
     "webpack": "^4.0.1",
     "webpack-cli": "^2.0.9",
-    "webpack-dev-server": "^3.1.0"
+    "webpack-dev-server": "^3.1.0",
+    "live-server": "^1.2.0"
   }
 }
