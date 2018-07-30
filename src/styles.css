@@ -1,3 +1,11 @@
-body {
-  bbackground-color: #7FDBFF;
+h1 {
+  margin: 40px 0px 0px 0px;
+}
+
+#submit {
+  margin: 40px 0px;
+}
+
+.results {
+  display: none;
 }
