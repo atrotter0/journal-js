@@ -4,10 +4,10 @@ import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles.css';
 
-function displayResults(vowelCount, consenantCount, teaser) {
+function displayResults(vowelCount, consonantCount, teaser) {
   $(".results").show();
   $("#vowel-count").text(vowelCount);
-  $("#consenant-count").text(consenantCount);
+  $("#consonant-count").text(consonantCount);
   $("#teaser").text(teaser);
 }
 
