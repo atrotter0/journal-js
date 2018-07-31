@@ -1,12 +1,12 @@
-# Ping Pong
+# Journal
 
-#### Epicodus JavaScript exercise, 7.29.18
+#### Epicodus JavaScript exercise, 7.30.18
 
-#### By Abel Trotter
+#### By Abel Trotter and Kevin Ahn
 
 ## Description
 
-A simple exercise to practice using npm and configure webpack.
+A simple JavaScript app that allows a user to enter a journal entry, and displays the number of consonants, vowels, and teaser text of the journal entry.
 
 ## Setup on OSX
 
@@ -14,7 +14,7 @@ A simple exercise to practice using npm and configure webpack.
 * Clone the repo
 * `npm install` to install dependencies
 * `npm run start` to build and start the dev server
-* `npm run lint` to run ESLint
+* `npm run lint` to explicitly run ESLint
 
 ## Contribution Requirements
 
@@ -33,4 +33,4 @@ A simple exercise to practice using npm and configure webpack.
 
 This software is licensed under the MIT license.
 
-Copyright (c) 2018 **Abel Trotter**
+Copyright (c) 2018 **Abel Trotter & Kevin Ahn**
